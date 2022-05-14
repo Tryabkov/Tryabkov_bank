@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tryabkov_bank", "Tryabkov_bank.csproj", "{F718C233-F27D-4C47-A46C-2E1C39D82004}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F718C233-F27D-4C47-A46C-2E1C39D82004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F718C233-F27D-4C47-A46C-2E1C39D82004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F718C233-F27D-4C47-A46C-2E1C39D82004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F718C233-F27D-4C47-A46C-2E1C39D82004}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3519E75-A44A-46D3-BCDE-0EF4DB70377F}
+	EndGlobalSection
+EndGlobal
