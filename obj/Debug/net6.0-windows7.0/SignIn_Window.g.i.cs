@@ -125,7 +125,7 @@ namespace Tryabkov_bank {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Tryabkov_bank;V1.0.0.0;component/signin_window.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Tryabkov_bank;component/signin_window.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SignIn_Window.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

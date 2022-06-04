@@ -34,15 +34,18 @@ namespace Tryabkov_bank
 
                 adapter.Fill(table);
                 DataRow[] rows = table.Select();
-
-                if (Convert.ToString(rows[0].ItemArray[6]) == password)
+                if (rows.Length != 0)
                 {
+                    if (Convert.ToString(rows[0].ItemArray[6]) == password)
+                    {
 
-                    return 1;
+                        return 1;
+                    }
+                    else return 0; //1 Success; 0 Email and password don`t match; -1 Check your Internet connection.                 
                 }
                 else return 0;
             }
-                return -1;
+            else return -1;
         }
 
         public static bool IsEmailExist(string email)
